@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from routes import cv, cover_letter, opportunities, apply, status
 
 app = FastAPI(
-    title="TalentSync — AI Microservice",
+    title="DevAfricaArena — AI Microservice",
     description="Microservice IA : génération CV, lettre de motivation, matching et candidature automatique.",
     version="1.0.0"
 )
